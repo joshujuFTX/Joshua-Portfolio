@@ -1,2 +1,2 @@
-# Joshua-Portfolio
-Joshua Uju's Project Portfolio
+# joshua-portfolio
+joshua uju's project portfolio
