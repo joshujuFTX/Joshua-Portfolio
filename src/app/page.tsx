@@ -4,8 +4,8 @@ export default function Home() {
       {/* Navigation */}
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
         <a
-          href="#"
-          className="text-lg font-semibold tracking-tight"
+ href="/"
+  className="text-lg font-semibold tracking-tight"
         >
           JOSHUA UJU
         </a>
@@ -180,7 +180,7 @@ export default function Home() {
 
               <div className="mt-8">
                 <a
-                  href="#"
+                  href="/projects/cloud-monitoring"
                   className="text-sm font-medium text-white transition group-hover:text-zinc-300"
                 >
                   View Project →
