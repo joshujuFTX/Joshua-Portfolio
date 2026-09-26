@@ -130,7 +130,7 @@ export default function Home() {
 
               <div className="mt-8">
                 <a
-                  href="#"
+                  href="/projects/cloud-monitoring"
                   className="text-sm font-medium text-white transition group-hover:text-zinc-300"
                 >
                   View Project →
@@ -180,7 +180,7 @@ export default function Home() {
 
               <div className="mt-8">
                 <a
-                  href="/projects/cloud-monitoring"
+                  href="/projects/ai-business-operations"
                   className="text-sm font-medium text-white transition group-hover:text-zinc-300"
                 >
                   View Project →
@@ -230,7 +230,7 @@ export default function Home() {
 
               <div className="mt-8">
                 <a
-                  href="#"
+                  href="/projects/food-event-booking"
                   className="text-sm font-medium text-white transition group-hover:text-zinc-300"
                 >
                   View Project →
@@ -281,7 +281,57 @@ export default function Home() {
 
               <div className="mt-8">
                 <a
-                  href="#"
+                  href="/projects/linux-security-auditor"
+                  className="text-sm font-medium text-white transition group-hover:text-zinc-300"
+                >
+                  View Project →
+                </a>
+              </div>
+            </article>
+
+            {/* Developer Portfolio */}
+            <article className="group rounded-2xl border border-zinc-800 bg-zinc-950 p-8 transition hover:border-zinc-700">
+              <div className="flex items-center justify-between">
+                <p className="text-xs uppercase tracking-[0.2em] text-zinc-500">
+                  05 / Web Development
+                </p>
+
+                <span className="text-xs text-zinc-600">
+                  FULL-STACK
+                </span>
+              </div>
+
+              <h3 className="mt-6 text-2xl font-semibold">
+                Developer Portfolio
+              </h3>
+
+              <p className="mt-4 leading-7 text-zinc-400">
+                A responsive developer portfolio built from scratch with
+                Next.js and TypeScript to showcase software engineering,
+                cloud, AI, and cybersecurity projects.
+              </p>
+
+              <div className="mt-6 flex flex-wrap gap-2">
+                {[
+                  "Next.js",
+                  "TypeScript",
+                  "React",
+                  "Tailwind CSS",
+                  "Git",
+                  "GitHub",
+                ].map((tech) => (
+                  <span
+                    key={tech}
+                    className="rounded-full border border-zinc-800 px-3 py-1 text-xs text-zinc-400"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <div className="mt-8">
+                <a
+                  href="/projects/developer-portfolio"
                   className="text-sm font-medium text-white transition group-hover:text-zinc-300"
                 >
                   View Project →
