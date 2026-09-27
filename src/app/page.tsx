@@ -440,16 +440,25 @@ export default function Home() {
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-zinc-400">
-              My background combines business and technology, with a focus
-              on applying software to real-world problems. I build across
-              software engineering, cloud infrastructure, artificial
-              intelligence, and cybersecurity.
+              I started with a foundation in business and marketing, then
+              shifted my focus toward computer science and software
+              engineering. That combination gives me a different perspective
+              on how technology is built, why it matters, and how it can solve
+              real business problems.
             </p>
 
             <p className="mt-6 text-lg leading-8 text-zinc-400">
-              My goal is to develop systems that are practical, scalable,
-              secure, and useful — from full-stack applications to cloud
-              infrastructure and intelligent software.
+              I&apos;m currently developing my technical depth across
+              software engineering, cloud infrastructure, artificial
+              intelligence, and cybersecurity. I enjoy building systems from
+              the ground up, understanding how they work underneath, and
+              turning ideas into working products.
+            </p>
+
+            <p className="mt-6 text-lg leading-8 text-zinc-400">
+              My long-term goal is to work on technically challenging
+              products and infrastructure where software, cloud systems, and
+              intelligent technologies come together.
             </p>
           </div>
         </div>
