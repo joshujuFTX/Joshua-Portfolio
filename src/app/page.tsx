@@ -485,7 +485,7 @@ export default function Home() {
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <a
-              href="mailto:your-email@example.com"
+              href="mailto:joshuauju1@gmail.com"
               className="rounded-full bg-white px-7 py-3 text-center text-sm font-medium text-black transition hover:bg-zinc-200"
             >
               Email Me
