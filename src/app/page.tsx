@@ -114,10 +114,10 @@ export default function Home() {
                 {[
                   "Python",
                   "FastAPI",
-                  "AWS",
+                  "SQLite",
+                  "SQLAlchemy",
                   "Docker",
-                  "Terraform",
-                  "PostgreSQL",
+                  "GitHub Actions",
                 ].map((tech) => (
                   <span
                     key={tech}
@@ -266,8 +266,8 @@ export default function Home() {
                   "Python",
                   "Linux",
                   "Bash",
-                  "System Auditing",
-                  "Security",
+                  "Security Auditing",
+                  "JSON",
                   "CLI",
                 ].map((tech) => (
                   <span

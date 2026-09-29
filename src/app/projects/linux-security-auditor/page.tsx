@@ -29,9 +29,8 @@ export default function LinuxSecurityAuditorPage() {
           </h1>
 
           <p className="mt-8 max-w-3xl text-xl leading-8 text-zinc-400">
-            A Python-based Linux security auditing tool designed to inspect
-            system configuration, permissions, services, users, and common
-            security risks.
+            A Python-based Linux security auditing tool that inspects system configuration,
+            permissions, services, SSH settings, firewall state, and network exposure.
           </p>
         </div>
       </section>
@@ -131,7 +130,7 @@ export default function LinuxSecurityAuditorPage() {
               {
                 title: "User & Account Auditing",
                 description:
-                  "Reviews local users, privileged accounts, and account configuration.",
+                  "Reviews UID 0 accounts and privileged account configuration.",
               },
               {
                 title: "File Permissions",
@@ -146,7 +145,7 @@ export default function LinuxSecurityAuditorPage() {
               {
                 title: "Process Analysis",
                 description:
-                  "Inspects running processes and system activity for additional context.",
+                  "Enumerates running system services and system activity for additional context.",
               },
               {
                 title: "Network Configuration",
@@ -251,10 +250,12 @@ export default function LinuxSecurityAuditorPage() {
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="#"
+              href="https://github.com/joshujuFTX/linux-security-auditor"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:bg-zinc-200"
             >
-              GitHub Repository
+              GitHub Repository ↗
             </a>
 
             <Link

@@ -38,11 +38,11 @@ export default function CloudMonitoringPage() {
           {[
             "Python",
             "FastAPI",
-            "PostgreSQL",
+            "SQLite",
+            "SQLAlchemy",
             "Docker",
-            "AWS",
-            "Terraform",
             "Linux",
+            "GitHub Actions",
           ].map((tech) => (
             <span
               key={tech}
@@ -132,7 +132,7 @@ export default function CloudMonitoringPage() {
                 </h3>
 
                 <p className="mt-3 text-sm leading-6 text-zinc-400">
-                  PostgreSQL stores monitoring data while the dashboard
+                  SQLite stores monitoring data while the dashboard
                   provides centralized visibility into system health.
                 </p>
               </div>
@@ -226,8 +226,8 @@ export default function CloudMonitoringPage() {
               "API-driven architecture",
               "Containerized application services",
               "Persistent monitoring data",
-              "Infrastructure-as-code with Terraform",
-              "Cloud deployment with AWS",
+              "Containerized application with Docker",
+              "Continuous integration with GitHub Actions",
               "Linux-based system monitoring",
             ].map((item) => (
               <div
@@ -255,12 +255,13 @@ export default function CloudMonitoringPage() {
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {[
               ["Backend", "Python / FastAPI"],
-              ["Database", "PostgreSQL"],
-              ["Infrastructure", "AWS / Terraform"],
+              ["Database", "SQLite / SQLAlchemy"],
+              ["Infrastructure", "Linux / Docker"],
               ["Containers", "Docker"],
               ["Operating System", "Linux"],
               ["Version Control", "Git / GitHub"],
               ["CI/CD", "GitHub Actions"],
+              ["Testing", "Pytest"],
               ["Monitoring", "System Metrics / Health Checks"],
             ].map(([category, technology]) => (
               <div
@@ -294,17 +295,21 @@ export default function CloudMonitoringPage() {
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <a
-              href="#"
+              href="https://github.com/joshujuFTX/cloud-monitoring-platform"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-full bg-white px-7 py-3 text-center text-sm font-medium text-black transition hover:bg-zinc-200"
             >
-              GitHub Repository
+              GitHub Repository ↗
             </a>
 
             <a
-              href="#"
+              href="https://github.com/joshujuFTX/cloud-monitoring-platform"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-full border border-zinc-700 px-7 py-3 text-center text-sm font-medium transition hover:border-zinc-500"
             >
-              Live Demo
+              Source & Documentation ↗
             </a>
           </div>
         </div>
